@@ -15,6 +15,13 @@ python main unregister
 
 @startup/__init__.py
 ```python
+with(get_startup_folder) as file:
+  file.write("{python_exe} {script}")
+
+```
+
+@startup/__init__.py
+```python
 import parselib
 import apscheduler
 import startup.win
