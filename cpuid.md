@@ -27,3 +27,6 @@ Fn8000_0001_EBX[15:0]
 
  Fn8000_0007_EDX[TscInvariant]
 
+- PID and clock cycles
+
+RDTSCP
